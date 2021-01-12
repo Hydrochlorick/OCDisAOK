@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		50328E2E25A7ABD300FC27C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50328E2D25A7ABD300FC27C8 /* AppDelegate.swift */; };
 		50328E3025A7ABD300FC27C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50328E2F25A7ABD300FC27C8 /* SceneDelegate.swift */; };
-		50328E3225A7ABD300FC27C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50328E3125A7ABD300FC27C8 /* ViewController.swift */; };
+		50328E3225A7ABD300FC27C8 /* MedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50328E3125A7ABD300FC27C8 /* MedListViewController.swift */; };
 		50328E3525A7ABD300FC27C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50328E3325A7ABD300FC27C8 /* Main.storyboard */; };
 		50328E3725A7ABD500FC27C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50328E3625A7ABD500FC27C8 /* Assets.xcassets */; };
 		50328E3A25A7ABD500FC27C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50328E3825A7ABD500FC27C8 /* LaunchScreen.storyboard */; };
+		503D6E3425ADA3F80031BD64 /* NewMedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D6E3325ADA3F80031BD64 /* NewMedViewController.swift */; };
+		503D6E3D25ADA5EE0031BD64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D6E3C25ADA5EE0031BD64 /* TabBarViewController.swift */; };
+		503D6E4025AE09750031BD64 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503D6E3F25AE09750031BD64 /* Medication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50328E2A25A7ABD300FC27C8 /* OCDisAOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDisAOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50328E2D25A7ABD300FC27C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50328E2F25A7ABD300FC27C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50328E3125A7ABD300FC27C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50328E3125A7ABD300FC27C8 /* MedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedListViewController.swift; sourceTree = "<group>"; };
 		50328E3425A7ABD300FC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50328E3625A7ABD500FC27C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50328E3925A7ABD500FC27C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50328E3B25A7ABD500FC27C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503D6E3325ADA3F80031BD64 /* NewMedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedViewController.swift; sourceTree = "<group>"; };
+		503D6E3C25ADA5EE0031BD64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		503D6E3F25AE09750031BD64 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				50328E2D25A7ABD300FC27C8 /* AppDelegate.swift */,
 				50328E2F25A7ABD300FC27C8 /* SceneDelegate.swift */,
-				50328E3125A7ABD300FC27C8 /* ViewController.swift */,
+				50328E3125A7ABD300FC27C8 /* MedListViewController.swift */,
+				503D6E3F25AE09750031BD64 /* Medication.swift */,
+				503D6E3C25ADA5EE0031BD64 /* TabBarViewController.swift */,
+				503D6E3325ADA3F80031BD64 /* NewMedViewController.swift */,
 				50328E3325A7ABD300FC27C8 /* Main.storyboard */,
 				50328E3625A7ABD500FC27C8 /* Assets.xcassets */,
 				50328E3825A7ABD500FC27C8 /* LaunchScreen.storyboard */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50328E3225A7ABD300FC27C8 /* ViewController.swift in Sources */,
+				503D6E3425ADA3F80031BD64 /* NewMedViewController.swift in Sources */,
+				50328E3225A7ABD300FC27C8 /* MedListViewController.swift in Sources */,
 				50328E2E25A7ABD300FC27C8 /* AppDelegate.swift in Sources */,
+				503D6E3D25ADA5EE0031BD64 /* TabBarViewController.swift in Sources */,
+				503D6E4025AE09750031BD64 /* Medication.swift in Sources */,
 				50328E3025A7ABD300FC27C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Daydream-Society.OCDisAOK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Daydream-Society.OCDisAOK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
